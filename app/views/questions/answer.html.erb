@@ -1,9 +1,9 @@
-<div id="your-question" class="border-left-3 border-dark">
+<div id="your-question" class="my-3">
   <p><%= @question %></p>
-  <p class="font-italic">-You</p>
+  <p class="fst-italic">-You</p>
 </div>
-<div id="coach-answer" class="border-left border-dark mb-3 bg-gradient-info">
-  <p><%= @answer %></p>
-  <p class="font-italic">-Your coach</p>
+<div id="coach-answer" class="my-3">
+  <p><strong><%= @answer %></strong></p>
+  <p class="fst-italic">-Your coach</p>
 </div>
 <%= link_to "Ask a new question", ask_path %>
